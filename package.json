@@ -136,7 +136,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -149,5 +150,8 @@
   "bugs": {
     "url": "https://github.com/Sutharmanish09/Edu-connect_Hub/issues"
   },
-  "homepage": "https://github.com/Sutharmanish09/Edu-connect_Hub#readme"
+  "homepage": "https://github.com/Sutharmanish09/Edu-connect_Hub#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
